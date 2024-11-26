@@ -1,0 +1,99 @@
+/*** ====================================================================
+	CTA One
+====================================================================***/
+.faq-page {
+	position: relative;
+	display: block;
+	padding-top: 120px;
+	z-index: 1;
+}
+
+.faq-page .tabs-content__faq {
+	position: relative;
+	display: block;
+	margin-top: 0px;
+	z-index: 1;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion {
+	position: relative;
+	display: block;
+	background-color: #F1F8FF;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion-title {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	padding: 17px 30px 18px;
+	transition: all 200ms linear;
+	transition-delay: 0.1s;
+	padding-right: 25px;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion-title h4 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	color: var(--thm-black);
+	position: relative;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	text-transform: capitalize;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion+.accrodion {
+	margin-top: 20px;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion-title h4::before {
+	content: "\e927";
+	font-family: 'icomoon' !important;
+	font-weight: 700;
+	font-size: 13px;
+	color: var(--thm-base);
+	position: absolute;
+	top: 50%;
+	right: 0;
+	line-height: 13px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	text-align: center;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+	content: "\e923";
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion-content {
+	position: relative;
+	padding-bottom: 32px;
+	padding-left: 30px;
+	padding-right: 50px;
+	margin-top: -6px;
+}
+
+.tabs-content__faq .faq-one-accrodion .accrodion-content p {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End */

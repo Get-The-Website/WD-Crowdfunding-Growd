@@ -1,0 +1,210 @@
+/* 
+Growd Charity HTML Template 
+
+*/
+/************ TABLE OF CONTENTS ***************
+
+1. Fonts
+2. Reset
+3. Global
+4. Main Header / Two / Three
+5. Main Slider / Two / Three
+6. About One
+7. Services One / Two / Three / Four
+8. Project One / Two / Three
+9. Testimonial One / Two / Three
+10. Partners One
+11. News One / Two
+12. CTA One
+13. Main Footer
+14. Clients One / Two / Three
+15. Counter One
+16. News Three
+17. InTouch One
+18. Page Title
+19. Banner One
+20. Work One
+21. Pricing One
+22. Team One
+23. Services Widgets
+24. Services Detail
+25. Our Projects
+26. Projects Detail
+27. Projects Widgets
+28. Our Blog
+29. Blog Widgets
+30. Comment Form
+31. Comment Box
+32. Contact Info
+33. Contact Form
+34. Map
+
+**********************************************/
+
+
+
+/*** 
+====================================================================
+	Css Files
+====================================================================
+***/
+@import url('global.css');
+@import url('module-css/header.css');
+@import url('module-css/footer.css');
+@import url('module-css/slider.css');
+@import url('module-css/banner.css');
+@import url('module-css/category.css');
+@import url('module-css/project.css');
+@import url('module-css/why-choose.css');
+@import url('module-css/video.css');
+@import url('module-css/event.css');
+@import url('module-css/services.css');
+@import url('module-css/cta.css');
+@import url('module-css/testimonial.css');
+@import url('module-css/gallery.css');
+@import url('module-css/blog.css');
+@import url('module-css/brand.css');
+@import url('module-css/creativity.css');
+@import url('module-css/about.css');
+@import url('module-css/counter.css');
+@import url('module-css/steps.css');
+@import url('module-css/feature.css');
+@import url('module-css/team.css');
+@import url('module-css/page-header.css');
+@import url('module-css/google-map.css');
+@import url('module-css/contact.css');
+@import url('module-css/coming-soon.css');
+@import url('module-css/error.css');
+@import url('module-css/products.css');
+@import url('module-css/faq.css');
+@import url('module-css/we-help.css');
+@import url('module-css/pricing.css');
+@import url('module-css/team-details.css');
+
+
+
+
+
+
+
+@import url('nice-select.css');
+@import url('owl.css');
+@import url('animate.css');
+@import url('rtl.css');
+@import url('custom-animate.css');
+@import url('dark-body.css');
+@import url('font-awesome.css');
+@import url('icomoon.css');
+@import url('jarallax.css');
+@import url('preloader.css');
+@import url('swiper.min.css');
+@import url('odometer-theme-default.css');
+@import url('jquery-ui.css');
+@import url('slick.css');
+@import url('jquery.bootstrap-touchspin.css');
+@import url('jquery.magnific-popup.css');
+
+
+
+/*** 
+====================================================================
+	
+====================================================================
+***/
+
+
+/* Sticy Header */
+.want-sticky-header .main-header.fixed-header {
+	position: relative !important;
+	display: none;
+}
+
+
+
+
+
+/* Box Layout */
+.box-layout .page-wrapper {
+	max-width: 1390px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	margin-top: 15px;
+}
+
+.box-layout:before {
+	position: fixed;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url(../images/pattern/thm-pattern-2.jpg);
+	opacity: 0.40;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.dark-body .page-wrapper {
+	background-color: var(--thm-black);
+}
+
+
+
+
+
+
+
+.box-layout .main-menu-one__call {
+	display: none;
+}
+
+.box-layout .main-menu-three__call,
+.box-layout .main-menu-three__search-box:before {
+	display: none;
+}
+
+.box-layout .main-menu-three__search-box {
+	margin-left: 50px;
+	margin-right: 0;
+}
+
+.box-layout .main-slider-two .owl-theme .owl-nav {
+	padding: 0px 30px;
+}
+
+.box-layout .main-slider-three .owl-theme .owl-nav {
+	padding: 0px 30px;
+}
+
+.box-layout .project-one__carousel.owl-theme .owl-nav {
+	left: -100px;
+	right: -100px;
+}
+
+
+
+
+
+
+
+.box-layout .rtl .main-menu-three__search-box {
+	margin-left: 0;
+	margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* The End */

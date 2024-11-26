@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+# Brand One
+--------------------------------------------------------------*/
+.brand-one {
+	position: relative;
+	display: block;
+	padding: 0 0 120px;
+	z-index: 1;
+}
+
+.brand-one .container {
+	max-width: 1430px;
+}
+
+.brand-one__carousel {
+	position: relative;
+	display: block;
+}
+
+.brand-one__single {
+	position: relative;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.brand-one__img {
+	position: relative;
+	z-index: 10;
+}
+
+.brand-one__img>img {
+	position: relative;
+	width: auto !important;
+	transition: all 500ms linear;
+	transition-delay: 0.1s;
+	transform: scale(1);
+}
+
+.brand-one__single:hover .brand-one__img>img {
+	transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+/* End */

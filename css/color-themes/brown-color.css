@@ -1,0 +1,12 @@
+/* CSS Document */
+
+:root {
+	--thm-base: #964B00;
+	--thm-base-rgb: 150, 75, 0;
+}
+
+.main-slider__icon img,
+.video-one__shape-1 img,
+.main-slider-three__sub-title-icon img {
+	filter: grayscale(100%);
+}

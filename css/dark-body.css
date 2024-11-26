@@ -1,0 +1,551 @@
+/* Growd HTML5 Template */
+
+/* RTL Style CSS Code */
+
+.dark-body,
+.dark-body .project-details__campaign .campaign-box button,
+.dark-body .we-help__form input[type="search"],
+.dark-body .blog-list__read-more-btn::after,
+.dark-body .sidebar__tags-list a,
+.dark-body .sidebar__search-form input[type="search"],
+.dark-body .blog-three__read-more-btn:after,
+.dark-body .footer-widget__contact-form-input-box input[type="email"],
+.dark-body .site-footer__social a,
+.dark-body .site-footer-two__social a,
+.dark-body .footer-widget-two__contact-form-input-box input[type="email"],
+.dark-body .blog-two__read-more-btn:after,
+.dark-body .steps-one__single-shape-2,
+.dark-body .steps-one__single-shape-1,
+.dark-body .blog-one__read-more-btn:after,
+.dark-body .progress-levels .progress-box,
+.dark-body .main-header__top-inner {
+    background-color: var(--thm-black);
+}
+
+
+
+.dark-body .thm-btn:before {
+    background-color: var(--thm-white);
+}
+
+.dark-body .thm-btn:hover {
+    color: var(--thm-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+.dark-body .progress-levels-5 .progress-box .bar .bar-innner,
+.dark-body .blog-details__category-and-tag,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-prev,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-next,
+.dark-body .team-one__carousel.owl-carousel .owl-dots .owl-dot,
+.dark-body .event-three__carousel.owl-carousel .owl-dots .owl-dot,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .progress-levels-2 .progress-box .bar .bar-innner,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .progress-levels-2 .progress-box .bar .bar-innner,
+.dark-body .category-two,
+.dark-body .progress-levels-4 .progress-box .bar .bar-fill,
+.dark-body .about-two__shape-1,
+.dark-body .feature-one ul li:nth-child(2) .feature-one__single-inner,
+.dark-body .event-two__carousel.owl-carousel .owl-dots .owl-dot,
+.dark-body .about-one__shape-1,
+.dark-body .about-one__text-box-text,
+.dark-body .testimonial-one,
+.dark-body .event-one__carousel.owl-carousel .owl-dots .owl-dot,
+.dark-body .why-choose-one__points li .icon,
+.dark-body .event-details__event-list-box,
+.dark-body .project-details__tab-box .tab-buttons .tab-btn span:before,
+.dark-body .main-menu-two,
+.dark-body .feature-two__icon,
+.dark-body .category-one__bg-box {
+    background-color: #01386B;
+}
+
+
+
+
+
+
+
+
+
+
+.dark-body .contact-two__input-box textarea,
+.dark-body .contact-two__input-box input[type="text"],
+.dark-body .contact-two__input-box input[type="email"],
+.dark-body .blog-list__pagination .pg-pagination li a,
+.dark-body .blog-list__single,
+.dark-body .sidebar__tags,
+.dark-body .sidebar__post,
+.dark-body .sidebar__category,
+.dark-body .sidebar__search-form button[type="submit"],
+.dark-body .sidebar__search,
+.dark-body .comment-form__input-box textarea,
+.dark-body .comment-form__input-box input[type="text"],
+.dark-body .comment-form__input-box input[type="email"],
+.dark-body .blog-details__left,
+.dark-body .blog-three__content,
+.dark-body .event-three__content::before,
+.dark-body .category-two__category-single,
+.dark-body .blog-two__content,
+.dark-body .main-footer-two,
+.dark-body .steps-one__single,
+.dark-body .counter-one,
+.dark-body .about-one__icon,
+.dark-body .main-footer,
+.dark-body .blog-one__content,
+.dark-body .testimonial-one__single,
+.dark-body .services-one__single,
+.dark-body .why-choose-one__shape-4,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-next,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-prev,
+.dark-body .project-one__content,
+.dark-body .contact-one__single,
+.dark-body .tabs-content__faq .faq-one-accrodion .accrodion,
+.dark-body .we-help__inner,
+.dark-body .pricing-one__content,
+.dark-body .progress-levels-5 .progress-box,
+.dark-body .project-details__dolor-box li span,
+.dark-body .project-details__tab-box .tab-buttons .tab-btn span,
+.dark-body .project-details__reward-box,
+.dark-body .team-page,
+.dark-body .main-menu__contact-list,
+.dark-body .main-menu__contact-list:before,
+.dark-body .main-menu__top-right:before,
+.dark-body .main-menu__social,
+.dark-body .category-one__category-single {
+    background-color: #032a4e;
+}
+
+
+
+
+
+
+
+
+
+.dark-body .blog-list__pagination .pg-pagination li a,
+.dark-body .blog-list__read-more-btn,
+.dark-body .sidebar__title,
+.dark-body .blog-details__tag-title span,
+.dark-body .blog-details__category-title span,
+.dark-body .blog-details__title,
+.dark-body .blog-three__read-more-btn,
+.dark-body .blog-three__title a,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-prev,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-next,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .event-three__title a,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .event-three__title a,
+.dark-body .category-two__category-title a,
+.dark-body .site-footer-two__social a,
+.dark-body .footer-widget-two__contact-form-input-box input[type="email"],
+.dark-body .blog-two__read-more-btn,
+.dark-body .blog-two__title a,
+.dark-body .event-two__title a,
+.dark-body .steps-one__title,
+.dark-body .footer-widget__contact-form-input-box input[type="email"],
+.dark-body .site-footer__social a,
+.dark-body .blog-one__title a,
+.dark-body .testimonial-one__name a,
+.dark-body .testimonial-one__quote span,
+.dark-body .services-one__title a,
+.dark-body .why-choose-one__points li .icon span,
+.dark-body .why-choose-one__points li .content h3,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-prev,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-next,
+.dark-body .project-one__title a,
+.dark-body .category-one__category-title a,
+.dark-body .progress-box__title,
+.dark-body .comment-one__title,
+.dark-body .comment-form__title,
+.dark-body .sidebar__tags-list a:hover,
+.dark-body .blog-list__title a,
+.dark-body .sidebar__post-content h3 a,
+.dark-body .contact-one__title,
+.dark-body .about-two__client-content h3,
+.dark-body .contact-two__input-box input[type="text"],
+.dark-body .contact-two__input-box input[type="email"],
+.dark-body .contact-two__input-box textarea,
+.dark-body .event-details__title-1,
+.dark-body .event-details__all-event h4,
+.dark-body .event-details__title-2,
+.dark-body .event-details__event-list-title,
+.dark-body .tabs-content__faq .faq-one-accrodion .accrodion-title h4,
+.dark-body .events-page .event-three__single:hover .event-three__title a,
+.dark-body .project-details__title,
+.dark-body .project-details__rate-single h3,
+.dark-body .project-details__rate-single p,
+.dark-body .project-details__client-content h3,
+.dark-body .project-details__dolor-box li span,
+.dark-body .project-details__campaign-title,
+.dark-body .project-details__campaign .campaign-box input,
+.dark-body .project-details__campaign .campaign-box button,
+.dark-body .project-details__goals-one span,
+.dark-body .tabs-content__update-title-1,
+.dark-body .project-details__reward-title,
+.dark-body .main-menu__social a,
+.dark-body .main-header .main-menu .navigation>li.dropdown>a:after,
+.dark-body .main-header .main-menu .navigation>li>a,
+.dark-body .main-menu-one__call-number p,
+.dark-body .main-menu-one__call-number h5 a,
+.dark-body .main-menu-one__call-icon span,
+.dark-body .project-details__reward-list li p,
+.dark-body .main-menu-two__search-btn,
+.dark-body .main-menu-two__social a,
+.dark-body .section-title__title {
+    color: var(--thm-white);
+}
+
+
+
+
+
+
+
+
+.dark-body .contact-one__contact-list li p a,
+.dark-body .project-details__reward-date,
+.dark-body .project-details__reward-text,
+.dark-body .project-details__reward-dolor,
+.dark-body .tabs-content__update-text-1,
+.dark-body .tabs-content__update-text-2,
+.dark-body .tabs-content__story-text,
+.dark-body .progress-levels-5 .progress-box .inner .percent,
+.dark-body .progress-levels-5 .progress-box .inner .count-text,
+.dark-body .progress-levels-5 .progress-box .inner .text,
+.dark-body .we-help__form input[type="search"],
+.dark-body .events-page .event-three__single:hover .event-three__date>p,
+.dark-body .events-page .event-three__single:hover .event-three__achieved,
+.dark-body .events-page .event-three__single:hover .progress-levels-2 .progress-box .inner .text,
+.dark-body .events-page .event-three__single:hover .progress-levels-2 .progress-box .inner .count-text,
+.dark-body .events-page .event-three__single:hover .progress-levels-2 .progress-box .inner .percent,
+.dark-body .event-details__event-list li p,
+.dark-body .event-details__event-list li span,
+.dark-body .event-details__all-event p,
+.dark-body .contact-one__text,
+.dark-body .blog-list__meta li a,
+.dark-body .sidebar__tags-list a,
+.dark-body .sidebar__post-content-date,
+.dark-body .sidebar__category-list li a,
+.dark-body .sidebar__search-form input[type="search"],
+.dark-body .comment-form__input-box textarea,
+.dark-body .comment-form__input-box input[type="text"],
+.dark-body .comment-form__input-box input[type="email"],
+.dark-body .comment-form__text,
+.dark-body .comment-one__content p,
+.dark-body .blog-details__tag-list a,
+.dark-body .blog-details__text-1,
+.dark-body .blog-details__text-2,
+.dark-body .blog-details__text-3,
+.dark-body .blog-details__meta li a,
+.dark-body .blog-three__meta li a,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .progress-levels-2 .progress-box .inner .count-text,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .progress-levels-2 .progress-box .inner .count-text,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .progress-levels-2 .progress-box .inner .percent,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .progress-levels-2 .progress-box .inner .percent,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .progress-levels-2 .progress-box .inner .text,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .progress-levels-2 .progress-box .inner .text,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .event-three__achieved,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .event-three__achieved,
+.dark-body .event-three__carousel.owl-carousel .owl-item.active .event-three__date>p,
+.dark-body .event-three__carousel.owl-carousel .owl-item:hover .event-three__date>p,
+.dark-body .feature-two__content p,
+.dark-body .blog-two__meta li a,
+.dark-body .event-two__explore a,
+.dark-body .event-two__goals span,
+.dark-body .event-two__date p,
+.dark-body .event-two__goals,
+.dark-body .progress-levels-3 .progress-box .inner .percent,
+.dark-body .progress-levels-3 .progress-box .inner .count-text,
+.dark-body .event-two__achieved,
+.dark-body .steps-one__text,
+.dark-body .about-one__text-box-text,
+.dark-body .about-one__points li p,
+.dark-body .about-one__text,
+.dark-body .blog-one__read-more-btn,
+.dark-body .blog-one__meta li a,
+.dark-body .testimonial-one__left-text h3,
+.dark-body .testimonial-one__text,
+.dark-body .services-one__text,
+.dark-body .why-choose-one__points li .content p,
+.dark-body .why-choose-one__text,
+.dark-body .project-one__goals-one span,
+.dark-body .project-one__goals-one,
+.dark-body .progress-levels .progress-box .inner .count-text,
+.dark-body .progress-levels .progress-box .inner .percent,
+.dark-body .progress-levels .progress-box .inner .text,
+.dark-body .project-one__achieved p,
+.dark-body .about-two__text,
+.dark-body .about-two__client-content p,
+.dark-body .about-two__points-list li .content p,
+.dark-body .comment-form__rate-text,
+.dark-body .blog-list__text,
+.dark-body .event-details__date p,
+.dark-body .category-two__category-text,
+.dark-body .event-details__text-1,
+.dark-body .event-details__text-2,
+.dark-body .event-details__text-3,
+.dark-body .event-details__text-4,
+.dark-body .event-details__event-list li p a,
+.dark-body .tabs-content__faq .faq-one-accrodion .accrodion-content p,
+.dark-body .pricing-one__points-list li p,
+.dark-body .project-details__goals-one,
+.dark-body .project-details__text-1,
+.dark-body .project-details__client-content p,
+.dark-body .tabs-content__story-points li p,
+.dark-body .tabs-content__story-text-2,
+.dark-body .main-menu__contact-list li .text p,
+.dark-body .main-menu__contact-list li .text p a,
+.dark-body .tabs-content__story-text-3,
+.dark-body .main-menu__login-reg-list li a,
+.dark-body .project-one__date p {
+    color: rgba(var(--thm-white-rgb), .70);
+}
+
+
+
+
+
+
+
+
+
+
+.dark-body .project-details__campaign-btn::after,
+.dark-body .gallery-page__btn::after,
+.dark-body .event-details__btn::after,
+.dark-body .blog-list__pagination .pg-pagination li a:hover,
+.dark-body .sidebar__tags-list a:hover,
+.dark-body .sidebar__search-form button[type="submit"]:hover,
+.dark-body .comment-form__btn::after,
+.dark-body .about-one__btn-2::before,
+.dark-body .events-page__btn::after,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-prev:hover,
+.dark-body .blog-three__carousel.owl-theme .owl-nav .owl-next:hover,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-prev:hover,
+.dark-body .project-one__carousel.owl-theme .owl-nav .owl-next:hover,
+.dark-body .team-one__carousel.owl-carousel .owl-dots .owl-dot.active,
+.dark-body .event-three__carousel.owl-carousel .owl-dots .owl-dot.active,
+.dark-body .event-two__carousel.owl-carousel .owl-dots .owl-dot.active,
+.dark-body .event-one__carousel.owl-carousel .owl-dot.active {
+    background-color: var(--thm-base);
+}
+
+.dark-body .about-one__btn-2:hover {
+    color: var(--thm-white);
+}
+
+
+
+
+
+
+
+.dark-body .contact-one__contact-list li p a:hover,
+.dark-body .project-details__tab-box .tab-buttons .tab-btn.active-btn span,
+.dark-body .event-details__event-list li p a:hover,
+.dark-body .event-details__event-list li:nth-child(6) p,
+.dark-body .blog-list__title a:hover,
+.dark-body .blog-list__meta li a:hover,
+.dark-body .sidebar__post-content h3 a:hover,
+.dark-body .sidebar__category-list li a:hover,
+.dark-body .blog-details__tag-list a:hover,
+.dark-body .blog-details__meta li a:hover,
+.dark-body .testimonial-one__name a:hover,
+.dark-body .blog-one__meta li a:hover,
+.dark-body .blog-one__title a:hover,
+.dark-body .blog-two__meta li a:hover,
+.dark-body .blog-two__title a:hover,
+.dark-body .event-two__title a:hover,
+.dark-body .blog-three__meta li a:hover,
+.dark-body .blog-three__title a:hover,
+.dark-body .event-three__title a:hover,
+.dark-body .project-one__title a:hover,
+.dark-body .main-menu__contact-list li .text p a:hover,
+.dark-body .main-menu__login-reg-list li a:hover,
+.dark-body .main-menu__social a:hover,
+.dark-body .main-menu-one__call-number a:hover,
+.dark-body .main-menu-two__search-btn:hover,
+.dark-body .main-menu-two__social a:hover,
+.dark-body .event-two__explore a:hover {
+    color: var(--thm-base);
+}
+
+
+.dark-body .why-choose-one__shape-2 img {
+    filter: invert(1);
+}
+
+
+.dark-body .pricing-one__bg-color,
+.dark-body .blog-two__shape-1::before,
+.dark-body .blog-two__shape-2::before,
+.dark-body .blog-two,
+.dark-body .event-one__shape-1::before,
+.dark-body .event-one__shape-2::before,
+.dark-body .event-one::before {
+    background: linear-gradient(360deg, rgba(0, 44, 85, 0) 0%, #002C55 48.56%);
+}
+
+
+.dark-body .tabs-content__story-points-shape {
+    background-color: var(--thm-white);
+}
+
+.dark-body .event-one__shape-2 img,
+.dark-body .event-one__shape-1 img {
+    filter: opacity(0.02);
+}
+
+.dark-body .event-two__content {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+    border-right: 0;
+}
+
+.dark-body .event-details__all-event-and-date,
+.dark-body .comment-one,
+.dark-body .event-two__goals {
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+
+
+
+
+
+.dark-body .team-one__carousel.owl-carousel .owl-dots .owl-dot::before,
+.dark-body .event-three__carousel.owl-carousel .owl-dots .owl-dot::before,
+.dark-body .event-two__carousel.owl-carousel .owl-dots .owl-dot::before,
+.dark-body .event-one__carousel.owl-carousel .owl-dots .owl-dot::before {
+    border: 1px solid var(--thm-base);
+}
+
+.dark-body .project-details__rate-box {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-details__rate-box li {
+    border-left: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-details__campaign .campaign-box button {
+    border-left: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-details__campaign .campaign-box button.sub {
+    border-top: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-details__campaign .campaign-box input {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+    background-color: transparent;
+}
+
+.dark-body .testimonial-one__shape-2 {
+    filter: opacity(0.05);
+}
+
+.dark-body .brand-one__img>img {
+    filter: invert(1);
+}
+
+.dark-body .team-one__bg-color,
+.dark-body .steps-one {
+    background: linear-gradient(360deg, rgba(3, 72, 78, 0) 0%, #032a4e 48.56%);
+}
+
+.dark-body .steps-one__bg {
+    mix-blend-mode: color-burn;
+}
+
+.dark-body .steps-one__single-shape-2::before {
+    border-bottom: 30px solid var(--thm-black);
+}
+
+.dark-body .steps-one__single-shape-1::before {
+    border-top: 30px solid var(--thm-black);
+}
+
+.dark-body .blog-two__shape-1 img {
+    mix-blend-mode: multiply;
+    opacity: 0.30;
+}
+
+.dark-body .blog-two__shape-2 img {
+    mix-blend-mode: multiply;
+    opacity: 0.30;
+}
+
+.dark-body .pricing-one__bg,
+.dark-body .contact-one__single-bg,
+.dark-body .team-one__bg {
+    mix-blend-mode: multiply;
+}
+
+.dark-body .about-two__shape-2 img {
+    filter: invert(1);
+    opacity: 0.1;
+}
+
+.dark-body .feature-one__shape-1 {
+    opacity: .05;
+}
+
+.dark-body .main-menu__top-inner:before,
+.dark-body .main-menu-two__top-inner:before,
+.dark-body .main-menu-two__top-inner:after,
+.dark-body .main-menu-two__search-box:before {
+    background-color: rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .main-menu__contact-list li:before {
+    background-color: rgba(var(--thm-white-rgb), .30);
+}
+
+.dark-body .main-menu-one__logo-box a img,
+.dark-body .main-menu-two__logo-box a img {
+    filter: invert(1);
+}
+
+.dark-body .main-header .main-menu .navigation>li:hover>a,
+.dark-body .main-header .main-menu .navigation>li.current>a {
+    opacity: 1;
+    color: var(--thm-base);
+}
+
+.dark-body .main-header .main-menu .navigation>li:hover>a::after,
+.dark-body .main-header .main-menu .navigation>li.current>a::after {
+    opacity: 1;
+    color: var(--thm-base);
+}
+
+.dark-body .main-header-one.fixed-header,
+.dark-body .main-header-two.fixed-header {
+    background-color: var(--thm-black);
+}
+
+.dark-body .main-menu-two__social {
+    background-color: #05223c;
+}
+
+.dark-body .tabs-content__inner .comment-one__single-list li {
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+
+
+
+
+
+
+
+
+/* RTL Style CSS Code End */

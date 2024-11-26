@@ -1,0 +1,142 @@
+/*** ====================================================================
+	Pricing One
+====================================================================***/
+.pricing-one {
+	position: relative;
+	display: block;
+	padding: 120px 0 90px;
+	z-index: 1;
+}
+
+.pricing-one__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: .10;
+	height: 507px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	z-index: -1;
+}
+
+.pricing-one__bg-color {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) -38.57%, #E3E9FF 100%);
+	transform: rotate(-180deg);
+	z-index: -1;
+}
+
+.pricing-one__single {
+	position: relative;
+	display: block;
+	background-color: var(--thm-white);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	margin-bottom: 30px;
+}
+
+.pricing-one__single-top {
+	position: relative;
+	display: block;
+	background-color: var(--thm-black);
+	text-align: right;
+	padding: 42px 40px 79px;
+	z-index: 1;
+}
+
+.pricing-one__single-top-shape-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: topBottom 3s ease-in-out infinite;
+	z-index: -1;
+}
+
+.pricing-one__single-top-shape-1 img {
+	width: auto;
+	opacity: .30;
+}
+
+.pricing-one__price {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	color: var(--thm-white);
+	font-family: var(--thm-font);
+}
+
+.pricing-one__content {
+	position: relative;
+	display: block;
+	padding: 79px 65px 65px;
+}
+
+.pricing-one__tag {
+	position: absolute;
+	top: -22px;
+	left: 44px;
+	right: 44px;
+	text-align: center;
+	font-weight: 700;
+	padding: 7px 30px 7px;
+	border-radius: 22px;
+	color: var(--thm-white);
+	text-transform: uppercase;
+	background-color: var(--thm-base);
+	z-index: 2;
+}
+
+.pricing-one__points-list {
+	position: relative;
+	display: block;
+	margin-bottom: 45px;
+}
+
+.pricing-one__points-list li {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 35px;
+}
+
+.pricing-one__points-list li+li {
+	margin-top: 12px;
+}
+
+.pricing-one__points-list li .icon {
+	position: relative;
+	display: block;
+}
+
+.pricing-one__points-list li .icon span {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	color: var(--thm-base);
+}
+
+.pricing-one__points-list li p {
+	font-size: 18px;
+	color: var(--thm-black);
+}
+
+.pricing-one__btn-box {
+	position: relative;
+	display: block;
+}
+
+.pricing-one__btn::before {
+	background-color: var(--thm-base);
+}
+
+.pricing-one__btn::after {
+	background-color: var(--thm-black);
+}
+
+
+/* End */

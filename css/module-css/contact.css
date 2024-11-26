@@ -1,0 +1,197 @@
+/*** ====================================================================
+	Contact One 
+====================================================================***/
+.contact-one {
+	position: relative;
+	display: block;
+	margin-top: -70px;
+	padding: 0 0 90px;
+	z-index: 2;
+}
+
+.contact-one__single {
+	position: relative;
+	display: block;
+	background-color: #EEF2FF;
+	margin-bottom: 30px;
+	padding: 40px 40px 35px;
+	padding-left: 35px;
+	z-index: 1;
+}
+
+.contact-one ul li:nth-child(2) .contact-one__single {
+	padding: 40px 40px 95px;
+}
+
+.contact-one ul li:nth-child(3) .contact-one__single {
+	padding: 40px 40px 71px;
+}
+
+.contact-one__single-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .10;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+
+.contact-one__icon {
+	position: relative;
+	display: block;
+	text-align: right;
+}
+
+.contact-one__icon span {
+	position: relative;
+	display: inline-block;
+	font-size: 84px;
+	color: var(--thm-base);
+	transition: all 500ms linear;
+	transition-delay: 0.1s;
+	transform: scale(1);
+}
+
+.contact-one__single:hover .contact-one__icon span {
+	transform: scale(0.9);
+}
+
+.contact-one__title {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-top: 33px;
+	margin-bottom: 31px;
+}
+
+.contact-one__contact-list {
+	position: relative;
+	display: block;
+}
+
+.contact-one__contact-list li {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.contact-one__contact-list li+li {
+	margin-top: 12px;
+}
+
+.contact-one__contact-list li .icon {
+	position: relative;
+	display: inline-block;
+}
+
+.contact-one__contact-list li .icon span {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	color: var(--thm-base);
+}
+
+.contact-one__contact-list li p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.contact-one__contact-list li p a {
+	color: var(--thm-gray);
+}
+
+.contact-one__contact-list li p a:hover {
+	color: var(--thm-base);
+}
+
+/*** ====================================================================
+	Contact Two
+====================================================================***/
+.contact-two {
+	position: relative;
+	display: block;
+	padding: 0 0 120px;
+	z-index: 1;
+}
+
+.contact-two__inner {
+	position: relative;
+	display: block;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.contact-two__form {
+	position: relative;
+	display: block;
+}
+
+.contact-two__input-box {
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.contact-two__input-box input[type="text"],
+.contact-two__input-box input[type="email"] {
+	height: 65px;
+	width: 100%;
+	border: none;
+	background-color: var(--thm-extra);
+	padding-left: 40px;
+	padding-right: 40px;
+	outline: none;
+	font-size: 16px;
+	color: var(--thm-gray);
+	display: block;
+	font-weight: 400;
+}
+
+.contact-two__input-box textarea {
+	font-size: 16px;
+	color: var(--thm-gray);
+	height: 185px;
+	width: 100%;
+	background-color: var(--thm-extra);
+	padding: 15px 40px 40px;
+	border: none;
+	outline: none;
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+
+.contact-two__input-box.text-message-box {
+	height: 185px;
+	margin-bottom: 30px;
+}
+
+.contact-two__btn-box {
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+.contact-two__btn {
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */

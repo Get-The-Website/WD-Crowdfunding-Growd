@@ -1,0 +1,211 @@
+/*** ====================================================================
+	Steps One
+====================================================================***/
+.steps-one {
+	position: relative;
+	display: block;
+	padding: 120px 0 120px;
+	counter-reset: count;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) -38.57%, #E3E9FF 100%);
+	z-index: 1;
+}
+
+.steps-one__bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .10;
+	height: 510px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	animation: leftRight 4s ease-in-out infinite;
+	z-index: -1;
+}
+
+.steps-one__single {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 210px;
+	height: 210px;
+	background-color: var(--thm-white);
+	border: 10px solid var(--thm-black);
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.steps-one ul li:nth-child(2) {
+	margin-top: 35px;
+}
+
+.steps-one ul li:nth-child(4) {
+	margin-top: 35px;
+}
+
+.steps-one__count {
+	position: absolute;
+	right: 30px;
+	bottom: -9px;
+	transform: rotate(58deg);
+}
+
+.steps-one__count:before {
+	position: relative;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 700;
+	color: var(--thm-white);
+	font-family: var(--thm-font);
+	counter-increment: count;
+	content: "0"counter(count);
+	transition: all 200ms linear;
+	transition-delay: 0.1s;
+}
+
+.steps-one__icon {
+	position: relative;
+	display: inline-block;
+}
+
+.steps-one__icon span {
+	position: relative;
+	display: inline-block;
+	font-size: 60px;
+	color: var(--thm-base);
+	-webkit-transition: all 0.90s ease;
+	-o-transition: all 0.90s ease;
+	transition: all 0.90s ease;
+}
+
+.steps-one__single:hover .steps-one__icon span {
+	transform: scale(.9) translateX(2px);
+}
+
+.steps-one__title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	margin-top: 11px;
+}
+
+.steps-one__single-shape-1 {
+	position: absolute;
+	right: 19px;
+	bottom: -15px;
+	width: 85px;
+	height: 165px;
+	transform: rotate(-58deg);
+	background-color: var(--thm-black);
+	z-index: -1;
+}
+
+.steps-one__single-shape-1::before {
+	content: "";
+	position: absolute;
+	bottom: -28px;
+	left: -10px;
+	border-top: 30px solid var(--thm-black);
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.steps-one ul li:nth-child(2) .steps-one__single-shape-1 {
+	top: -15px;
+	transform: rotate(58deg);
+}
+
+.steps-one ul li:nth-child(4) .steps-one__single-shape-1 {
+	top: -15px;
+	transform: rotate(58deg);
+}
+
+.steps-one ul li:nth-child(2) .steps-one__single-shape-1::before {
+	content: "";
+	position: absolute;
+	top: -28px;
+	right: -10px;
+	border-bottom: 30px solid var(--thm-black);
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.steps-one ul li:nth-child(4) .steps-one__single-shape-1::before {
+	content: "";
+	position: absolute;
+	top: -28px;
+	right: -10px;
+	border-bottom: 30px solid var(--thm-black);
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.steps-one__single-shape-2 {
+	position: absolute;
+	right: 19px;
+	top: -15px;
+	width: 85px;
+	height: 165px;
+	transform: rotate(58deg);
+	background-color: var(--thm-black);
+	z-index: -1;
+}
+
+.steps-one__single-shape-2::before {
+	content: "";
+	position: absolute;
+	top: -28px;
+	right: -10px;
+	border-bottom: 30px solid var(--thm-black);
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.steps-one ul li:nth-child(2) .steps-one__count {
+	left: 28px;
+	top: -10px;
+	transform: rotate(-58deg);
+	right: inherit;
+	bottom: inherit;
+}
+
+.steps-one ul li:nth-child(4) .steps-one__count {
+	left: 28px;
+	top: -10px;
+	transform: rotate(-58deg);
+	right: inherit;
+	bottom: inherit;
+}
+
+.steps-one__bottom {
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.steps-one__text {
+	color: var(--thm-black);
+}
+
+.steps-one__btn-box {
+	position: relative;
+	display: block;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End */

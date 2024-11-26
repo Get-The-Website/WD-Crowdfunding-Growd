@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+# Page Header
+--------------------------------------------------------------*/
+.page-header {
+	position: relative;
+	display: block;
+	background-color: var(--thm-black);
+	overflow: hidden;
+	z-index: 1;
+}
+
+.page-header__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .30;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+
+.page-header__shape-1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .20;
+	z-index: -1;
+}
+
+.page-header__shape-1 img {
+	width: auto;
+}
+
+.page-header__shape-2 {
+	position: absolute;
+	right: 225px;
+	bottom: 0px;
+	opacity: .5;
+	animation: leftRight 4s ease-in-out infinite;
+	z-index: -1;
+}
+
+.page-header__shape-2 img {
+	width: auto;
+}
+
+.page-header__shape-3 {
+	position: absolute;
+	right: 182px;
+	bottom: 0px;
+	animation: topBottom 3s ease-in-out infinite;
+	z-index: -1;
+}
+
+.page-header__shape-3 img {
+	width: auto;
+}
+
+.page-header__shape-4 {
+	position: absolute;
+	right: 0px;
+	top: 18px;
+	z-index: -1;
+}
+
+.page-header__shape-4 img {
+	width: auto;
+}
+
+.page-header__inner {
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 155px 0 142px;
+	z-index: 15;
+}
+
+.page-header__inner h2 {
+	font-size: 42px;
+	color: var(--thm-white);
+	line-height: 52px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.thm-breadcrumb__inner {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.thm-breadcrumb {
+	position: relative;
+	display: block;
+}
+
+.thm-breadcrumb li {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	font-weight: 700;
+	color: var(--thm-base);
+	text-transform: uppercase;
+	font-family: var(--thm-font-two);
+}
+
+.thm-breadcrumb li+li {
+	margin-left: 5px;
+}
+
+.thm-breadcrumb li a {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	font-weight: 700;
+	color: var(--thm-base);
+	text-transform: uppercase;
+	font-family: var(--thm-font-two);
+}
+
+.thm-breadcrumb li:hover a {
+	color: var(--thm-white);
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */

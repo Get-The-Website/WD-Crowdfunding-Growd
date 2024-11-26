@@ -1,0 +1,125 @@
+/*** ====================================================================
+	CTA One
+====================================================================***/
+.cta-one {
+	position: relative;
+	display: block;
+	z-index: 2;
+}
+
+.cta-one__inner {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--thm-base);
+	padding: 60px 60px 55px;
+	padding-left: 80px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.cta-one__shape-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.cta-one__shape-1 img {
+	width: auto;
+	opacity: .50;
+}
+
+.cta-one__icon-2 {
+	position: absolute;
+	top: 0;
+	right: 60px;
+}
+
+.cta-one__icon-2 span {
+	position: relative;
+	display: inline-block;
+	font-size: 200px;
+	color: rgba(var(--thm-white-rgb), .20);
+}
+
+.cta-one__left {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.cta-one__icon {
+	position: relative;
+	display: inline-block;
+}
+
+.cta-one__icon span {
+	position: relative;
+	display: inline-block;
+	font-size: 80px;
+	color: var(--thm-white);
+	transition: all 500ms linear;
+	transition-delay: 0.1s;
+	transform: scale(1);
+}
+
+.cta-one__icon:hover span {
+	transform: scale(.9);
+}
+
+.cta-one__left .content {
+	position: relative;
+	display: block;
+}
+
+.cta-one__left .content p {
+	font-weight: 500;
+	color: var(--thm-white);
+	text-transform: uppercase;
+}
+
+.cta-one__left .content h3 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 46px;
+	text-transform: capitalize;
+	margin-top: 2px;
+	color: var(--thm-white);
+}
+
+.cta-one__btn-box {
+	position: relative;
+	display: block;
+}
+
+.cta-one__btn {
+	color: var(--thm-white);
+}
+
+.cta-one__btn:hover {
+	color: var(--thm-base);
+}
+
+.cta-one__btn:after {
+	background-color: var(--thm-black);
+}
+
+.cta-one__btn:before {
+	background: var(--thm-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */
